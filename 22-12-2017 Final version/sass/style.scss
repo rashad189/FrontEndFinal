@@ -1,0 +1,39 @@
+$mainColor:#084884;
+$mainColorLight:lighten($mainColor,15%);
+$mainColorLighter:lighten($mainColor,50%);
+$textColor:#42a4ff;
+$transition: all 0.4s;
+$darkColor: #136cbf;
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #313132;
+}
+a{
+	text-decoration:none !important;
+}
+button{
+	outline: none;
+}
+
+@import "includes/_topNavBar";
+@import "includes/_contentNavBar";
+@import "includes/_menuNavBar";
+@import "includes/_slider";
+@import "includes/_counters";
+@import "includes/_pageText";
+@import "includes/_itemSlider";
+@import "includes/_manufacturers";
+@import "includes/_owlCarousel";
+@import "includes/_posts";
+@import "includes/_map";
+@import "includes/_footer";
+@import "includes/_goUp";

@@ -1,0 +1,22 @@
+#goUp{
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	z-index: 40;
+	display: none;
+	.round{
+		.circle{
+			height: 50px;
+			width:50px;
+			background: $textColor;
+			border-radius: 100%;
+			text-align: center;
+			font-size: 18px;
+			color: white;
+			cursor: pointer;
+			i{
+				line-height: 47px;
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+#navbar{
+	.topNavBar{
+		padding:12px 0px;
+		background:$mainColor;
+		margin:0 -15px;
+			.icons{
+					i{
+						color: $mainColorLighter;
+					    font-size: 18px;
+					    line-height: 30px;
+					    width: 28px;
+						height: 18px;
+						font-size: 18px;
+					    cursor: pointer;
+							
+						&:hover{
+				    		transition: all .2s linear;
+				    		color: #fff;
+				    		font-size: 19px;
+				    	}
+				}
+			}
+			p{
+			color:$mainColorLighter;
+			font-size: 14px;
+			line-height: 26px;
+			padding:0;
+			margin: 0;
+		}
+		
+		button{
+			font-weight: bolder;
+			color: #fff;
+			background-color: #42a4ff;
+			border:none;
+			text-align: center;
+			font-size: 12px;
+			padding:8px 36px;
+			border-radius:50px;
+			cursor: pointer;
+
+				&:hover{
+					transition: all .4s linear;
+					background:rgba(255,255,255,.8);
+				}
+		}
+		}
+	/* top navbar finished */
+		.contentNavBar{
+			background:black;
+			padding: 47px 0;
+			margin: 0 -15px;
+	}
+	
+}

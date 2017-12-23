@@ -1,0 +1,59 @@
+#navbar{
+	.contentBar{
+		padding: 47px 0px;
+		margin: 0 -15px;
+		background: $mainColorLight;
+      .my-padding{
+          padding: 0;
+      }
+      .media-set{
+        .round{
+        height: 44px;
+        width: 44px;
+        background: $mainColor;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 50%;
+        float: left;
+
+          i{
+            color: #fff;
+            line-height: 44px;
+            font-size: 26px;
+          }
+        }
+          span{
+              color: $mainColorLighter;
+              font-size: 14px;
+              padding-left: 10px;
+              cursor: pointer;
+              float: left;
+
+          &:hover{
+            color:#fff;
+          }
+        }
+        p{  
+          margin: 0;
+          color: $mainColorLighter;
+          font-size: 14px;
+          padding-left: 10px;
+          cursor: pointer;
+          float: left;
+        }
+      }
+  		
+      .media-set{
+        span{
+          @media screen and (max-width: 1200px) {
+            font-size: 13px;
+          }
+          }
+          p{
+            @media screen and (max-width: 1200px) {
+                font-size: 13px;
+              }
+          }
+      }
+	}
+}

@@ -1,0 +1,268 @@
+#owlCarousel{
+	.carousel{
+		padding: 110px 0px;
+		.heading{
+			text-align: center;
+			h1{
+				font-size: 48px;
+			}
+			div{
+				height: 2px;
+				width: 40px;
+				margin-top: 32px;
+				background: #42a4ff;
+				position: absolute;
+				left: calc(50% - 40px);
+			}
+		}
+	.content{
+		overflow-x: hidden;
+		margin-top: 100px;
+				.owl-carousel-items{
+					>div{
+						width: 300px;
+					}
+				    height: 280px;
+				    overflow: hidden;
+				    position: relative;
+				}
+				.text{
+					max-width: 250px;
+					border-top :1px solid rgba(0,0,0,.1);
+					padding-top: 10px;
+					padding-right: 20px;
+					p{
+						color:rgba(0,0,0,.8);
+						font-size: 15px;
+						font-style: italic;
+					}
+				}
+				.mainheadings{
+					height: 67px;
+				.images{
+					float: left;
+					img{
+						border-radius: 100%;
+					}
+				}
+				.texts{
+					float: left;
+					padding-left: 14px;
+					margin-top: 7px;
+					h4{
+						font-size: 18px;
+						color: $textColor;
+					}
+					h6{
+						font-size: 14px;
+						color: #b1b1b1;
+						font-weight: normal;
+						margin-top: 5px;
+					}
+				}
+			}
+		}
+		.btns{
+			margin-top: 55px;
+			text-align: center;
+			.active{
+				background:$textColor;
+			}
+			button{
+				border:none;
+				border-radius: 100%;
+				height: 12px;
+				width: 12px;
+				margin-left: 20px;
+				background:rgb(198, 198, 198);
+			}
+		}
+		.btnsSmall{
+				text-align: center;
+				margin-top: 32px;
+				.active{
+				background:$textColor;
+				}
+				div{
+					display: inline-block;
+					border-radius: 32px;
+					cursor: pointer;
+					height: 6px;
+					width: 6px;
+					margin-left: 10px;
+					background:rgb(198, 198, 198);
+				}
+		}
+	}
+}
+@media(max-width: 1200px){
+	.carousel{
+		.textCenter{
+			width: 92%;
+			margin: 0 auto;
+		}
+	}
+}
+@media(max-width: 991px){
+	.carousel{
+		.textCenter{
+			   width: 98% !important;
+				.content{
+					.owl-carousel-items{
+						height: 213px !important;
+						.col-md-4{
+							float: left;
+							width: 360px !important;
+						}
+					}
+					.posChange{
+						     margin-top: -214px;
+   							 margin-left: 0;
+					}
+					.text{
+						max-width: 100% !important;
+						min-height: 132px;
+						padding-right: 0px !important;
+					}
+			}
+		}
+		.heading{
+			h1{
+				font-size: 32px !important;
+			}
+		}
+	}
+}
+@media(max-width: 767px){
+	.carousel{
+		.textCenter{
+				.content{
+					.owl-carousel-items{
+						.col-md-4{
+							display: none;
+							&:first-child{
+								display: inline-block;
+							}
+						}
+					}
+					.posChangeXs{
+						margin-left: 60px;
+					}
+					.text{
+						min-width: 470px;
+						min-height: 90px;
+					}
+			}
+		}
+		.heading{
+			h1{
+				font-size: 28px !important;
+			}
+			div{
+				margin-left: 20px;
+			}
+		}
+	}
+}
+@media(max-width: 580px){
+	.carousel{
+		.textCenter{
+				.content{
+					.posChangeXs{
+						margin-left: 10px;
+					}
+			}
+		}
+	}
+}
+@media(max-width: 531px){
+	.carousel{
+		.textCenter{
+				.content{
+					.posChangeXs{
+						margin-left: 0px;
+					}
+			}
+		}
+	}
+}
+@media(max-width: 469px){
+	.carousel{
+		.textCenter{
+				.content{
+					.text{
+						min-width: 400px;
+						min-height: 88px;
+					}
+			}
+		}
+	}
+	.btnsSmall{
+		div{
+			margin-top: 46px;
+		}
+	}
+}
+@media(max-width: 419px){
+	.carousel{
+		.textCenter{
+				.content{
+					.text{
+						min-width: 343px;
+						min-height: 110px;
+					}
+			}
+		}
+	}
+	.btnsSmall{
+		div{
+			margin-top: 46px;
+		}
+	}
+}
+@media(max-width: 371px){
+	.carousel{
+		.textCenter{
+				.content{
+					.text{
+						min-width: 303px;
+						min-height: 132px;
+					}
+			}
+		}
+	}
+	.btnsSmall{
+		div{
+			margin-top: 46px;
+		}
+	}
+}
+@media(max-width: 345px){
+	.carousel{
+		.textCenter{
+				.content{
+					.text{
+						min-width: 253px;
+						min-height: 154px;
+					}
+			}
+		}
+	}
+	.btnsSmall{
+		div{
+			margin-top: 46px;
+		}
+	}
+}
+@media(max-width: 301px){
+	.carousel{
+		.heading{
+			h1{
+				font-size: 24px !important;
+			}
+			div{
+				margin-left: 20px;
+			}
+		}
+	}
+}
